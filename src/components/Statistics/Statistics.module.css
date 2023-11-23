@@ -7,7 +7,7 @@
 }
 .title{
     font-size: 25px; 
-    color: #909090;
+    color: #8c9aa7;
     text-align: center;
     text-transform: uppercase;
     padding: 10px 10px;
@@ -17,25 +17,31 @@
     padding: 0;
     display: flex;
     flex-direction: row;
-    gap: 10px;
     justify-content: space-around;
-    background-color:navy;
     margin: 0;
-    padding: 0 25px;
+    padding: 0;
 }
 
 .label{
     display: block;
     font-size: 15px;
-    color: #A0A0A0;
+    color: #dfdfdf;
     text-align: center;
 }
 .percentage{
     display: block;
     font-size: 22px;
-    color: #A0A0A0;
+    color: #dfdfdf;
     text-align: center;
 }
 .item{
-
+    min-width: 60px;
+}
+.item:first-child{
+    border-bottom-left-radius:10px;
+    border-top-left-radius:0px;
+}
+.item:last-child{
+    border-bottom-right-radius:10px;
+    border-top-left-radius:0;
 }

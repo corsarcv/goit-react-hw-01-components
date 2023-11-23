@@ -1,0 +1,26 @@
+.item {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px;
+    min-width: 200px;
+    gap: 10px
+}
+.status {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+}
+.friend-list{
+    margin-top: 0;
+}

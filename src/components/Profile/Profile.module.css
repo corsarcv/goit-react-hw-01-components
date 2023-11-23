@@ -9,6 +9,7 @@
 }
 .description{
     padding: 10px;
+    text-align: center;
 }
 .name{
     font-size: 24px;
@@ -16,7 +17,7 @@
 .tag,
 .location{
     font-size: 18px;
-    color: #909090;
+    color: #8c9aa7;
 }
 .stats{
     display: flex;
@@ -24,16 +25,15 @@
     justify-content: space-around;
     gap: 0;
     flex-wrap: nowrap;
-    list-style-type: none;
     margin: 0 auto;
     padding: 0;
-    background-color: #F0F0F0;
+    background-color: #f4f6f9;
     border-radius: 10px;
 }
 .label{
     display: block;
     font-size: 15px;
-    color: #909090;
+    color: #8c9aa7;
     text-align: center;
 }
 .quantity{

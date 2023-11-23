@@ -1,0 +1,30 @@
+table {
+    background-color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px;
+    min-width: 480px;
+}
+thead {
+    background-color:  #03bdd5;
+    color: white;
+    min-width: 850px;
+}
+tbody tr{
+    text-transform: capitalize;
+    color: #858a8e;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf1f3;
+}
+
+td,th {
+    padding: 10px;
+    text-align: center;
+  }
