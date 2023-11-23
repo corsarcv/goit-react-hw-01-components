@@ -11,6 +11,7 @@ thead {
     background-color:  #03bdd5;
     color: white;
     min-width: 850px;
+    text-transform: uppercase;
 }
 tbody tr {
     text-transform: capitalize;

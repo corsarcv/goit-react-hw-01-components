@@ -1,4 +1,4 @@
-import css from './TransactionHistory.module.css';
+import _ from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({transactions}) => (
     <table>
@@ -9,7 +9,7 @@ export const TransactionHistory = ({transactions}) => (
         <th>Currency</th>
         </tr>
     </thead>
-    
+
     <tbody>
         {transactions.map( transaction => (
         <tr key={transaction.id}>

@@ -28,7 +28,7 @@
     margin: 0 auto;
     padding: 0;
     background-color: #f4f6f9;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
 .label{
     display: block;
@@ -45,15 +45,11 @@
 .item {
     border: 1px solid #909090;
     border-left: none;
+    border-bottom: none;
     min-width: 100px;
-    padding: 15px;
+    padding: 20px;
 }
-.item:first-child{
-    border-bottom-left-radius:10px;
-    border-top-left-radius:0px;
-}
+
 .item:last-child{
     border-right: none;
-    border-bottom-right-radius:10px;
-    border-top-left-radius:0;
 }
