@@ -8,7 +8,7 @@ function getRandomHexColor() {
 
 export const Statistics = ({stats, title}) => (
     <section className={css.statistics}>
-    <h2 className={css.title}>Upload stats</h2>
+    <h2 className={css.title}>{title ? title: 'Upload stats'}</h2>
     <ul className={css["stat-list"]}>
       {stats.map(stat => (
         <li className={css.item} key={stat.id} style={{backgroundColor: getRandomHexColor()}} >

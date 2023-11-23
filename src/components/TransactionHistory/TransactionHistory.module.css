@@ -12,7 +12,7 @@ thead {
     color: white;
     min-width: 850px;
 }
-tbody tr{
+tbody tr {
     text-transform: capitalize;
     color: #858a8e;
 }
